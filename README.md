@@ -5,8 +5,7 @@ Co-design permanent, active, stateful, reliable cloud proxies with your web app 
 See http://www.cafjs.com 
 
 ## CAF RPI GPIO
-
-[![Build Status](http://ci.cafjs.com/github.com/cafjs/caf_rpi_gpio/status.svg?branch=master)](http://ci.cafjs.com/github.com/cafjs/caf_rpi_gpio)
+[![Build Status](http://ci.cafjs.com/api/badges/cafjs/caf_rpi_gpio/status.svg)](http://ci.cafjs.com/cafjs/caf_rpi_gpio)
 
 This library provides access to GPIO pins in a Raspberry Pi. It runs in the device not in the cloud.
 
