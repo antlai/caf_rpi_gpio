@@ -1,8 +1,8 @@
-# CAF (Cloud Assistant Framework)
+# CAF.js (Cloud Assistant Framework)
 
 Co-design permanent, active, stateful, reliable cloud proxies with your web app or gadget.
 
-See http://www.cafjs.com 
+See http://www.cafjs.com
 
 ## CAF RPI GPIO
 [![Build Status](http://ci.cafjs.com/api/badges/cafjs/caf_rpi_gpio/status.svg)](http://ci.cafjs.com/cafjs/caf_rpi_gpio)
@@ -11,11 +11,13 @@ This library provides access to GPIO pins in a Raspberry Pi. It runs in the devi
 
 ## API
 
-    lib/proxy_iot_gpio.js
- 
+See {@link module:caf_rpi_gpio/proxy_iot_gpio}
+
 ## Configuration Example
 
 ### iot.json
+
+See {@link module:caf_rpi_gpio/plug_iot_gpio}
 
     {
             "module": "caf_rpi_gpio#plug_iot",
@@ -39,7 +41,3 @@ This library provides access to GPIO pins in a Raspberry Pi. It runs in the devi
                 }
             ]
     }
-
-where `gpiomem` enables non-privileged access to GPIO pins for recent Linux kernels, and `mapping` refers to the pin numbering scheme being `physical` (P01-P40 header layout)  or `gpio` (Broadcomm GPIOxx naming). See https://github.com/jperkin/node-rpio for details.
-
-`allowMock` ensures that your program can run on non-RPi devices by simulating GPIO pins with files on a temp directory. `mockRootDir` is the default root directory for these files.
