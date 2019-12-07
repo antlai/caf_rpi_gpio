@@ -15,7 +15,7 @@
         "rimraf" : false
     },
     "devDependencies": {
-        "eslint": "^3.1.1",
+        "eslint": "^6.7.2",
         "nodeunit" : ">=0.9",
         "caf_core" : "^0.3.0",
         "jsdoc": "^3.4.2"
