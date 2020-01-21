@@ -1,7 +1,7 @@
 {
     "name": "caf_rpi_gpio",
     "description": "Cloud Assistant library to access the Raspberry Pi gpio pins using WiringPi",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "dependencies": {
         "rpio": "^1.3.0",
