@@ -1,10 +1,10 @@
-# CAF.js (Cloud Assistant Framework)
+# Caf.js
 
 Co-design permanent, active, stateful, reliable cloud proxies with your web app or gadget.
 
-See http://www.cafjs.com
+See https://www.cafjs.com
 
-## CAF RPI GPIO
+## Raspberry Pi Library for Accessing GPIO Pins
 [![Build Status](https://travis-ci.org/cafjs/caf_rpi_gpio.svg?branch=master)](https://travis-ci.org/cafjs/caf_rpi_gpio)
 
 This library provides access to GPIO pins in a Raspberry Pi. It runs in the device not in the cloud.
