@@ -18,7 +18,7 @@ See {@link module:caf_rpi_gpio/proxy_iot_gpio}
 ### iot.json
 
 See {@link module:caf_rpi_gpio/plug_iot_gpio}
-
+```
     {
             "module": "caf_rpi_gpio#plug_iot",
             "name": "gpio",
@@ -41,3 +41,4 @@ See {@link module:caf_rpi_gpio/plug_iot_gpio}
                 }
             ]
     }
+```
