@@ -5,7 +5,9 @@ Co-design cloud assistants with your web app and IoT devices.
 See https://www.cafjs.com
 
 ## Raspberry Pi Library for Accessing GPIO Pins
-[![Build Status](https://travis-ci.org/cafjs/caf_rpi_gpio.svg?branch=master)](https://travis-ci.org/cafjs/caf_rpi_gpio)
+
+[![Build Status](https://github.com/cafjs/caf_rpi_gpio/actions/workflows/push.yml/badge.svg)](https://github.com/cafjs/caf_rpi_gpio/actions/workflows/push.yml)
+
 
 This library provides access to GPIO pins in a Raspberry Pi. It runs in the device not in the cloud.
 
